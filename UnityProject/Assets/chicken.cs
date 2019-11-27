@@ -13,19 +13,40 @@ public class chicken : MonoBehaviour
     public string _name = "G8";
     public bool mission;
 
-    public void G8(float speed, int scream, int pickup, int check, string direction = "前方", string mission = "關閉")
+    //跑步
+    private void Run()
     {
-        print("跑步速度:" + speed);
-        print("亂叫次數:" + scream);
-        print("撿東西次數:" + pickup);
-        print("旋轉方向:" + direction);
-        print("檢視任務:" + mission);
+      
+
+    }
+    //旋轉
+    private void Rotate()
+    {
+
+
+    }
+    //亂叫
+    private void Bark()
+    {
+
+
+    }
+    //撿東西
+    private void Pick()
+    {
+
+
+    }
+    //任務
+    private void Task()
+    {
+
 
     }
 
     public void Start()
     {
-        G8(10.5f, 5, 2, mission: "開啟");
+       
     }
 
    
